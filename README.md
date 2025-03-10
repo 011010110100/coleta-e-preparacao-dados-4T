@@ -17,7 +17,7 @@ Este repositório contém o código e os dados da primeira fase do projeto de co
 * `country.json`: Arquivo JSON com informações adicionais sobre os países.
 * `gpd_data.csv`: Arquivo CSV com dados de PIB dos países.
 * `README.md`: Este arquivo, explicando o projeto.
-* `dados/`: pasta contendo o arquivo CSV final com os dados consolidados.
+* `fase1.csv`: arquivo contendo o arquivo CSV final com os dados consolidados.
 
 ## Como executar
 
@@ -25,7 +25,7 @@ Este repositório contém o código e os dados da primeira fase do projeto de co
 2.  Siga as instruções no arquivo `README.md` fornecido no arquivo zipado para configurar e iniciar a API REST local.
 3.  Certifique-se de ter o Python 3 e as bibliotecas Pandas, Requests, Flask e Flask-RESTful instaladas.
 4.  Execute os notebooks Jupyter na pasta `notebooks/` para coletar, preparar e consolidar os dados.
-5.  O arquivo CSV final será gerado na pasta `dados/`.
+5.  O arquivo CSV final será gerado como 'fase1.csv'.
 
 ## Dependências
 
@@ -34,6 +34,20 @@ Este repositório contém o código e os dados da primeira fase do projeto de co
 * Requests
 * Flask
 * Flask-RESTful
+
+## Sugestão para criar o ambiente virtual (WSL)
+
+Criando o ambiente
+>> python -m venv fase1CPD
+            
+Ativando ambiente virtual
+>> source fase1CPD/bin/activate
+            
+Instalando as demais dependências.
+>> pip install -r ./requirements.txt
+
+Inicializando a API
+>> python api_fase01.py
 
 ## Autor
 
